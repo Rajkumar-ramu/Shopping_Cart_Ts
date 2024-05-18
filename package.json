@@ -1,0 +1,28 @@
+{
+  "name": "shopping_cart_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/app.ts",
+    "start:dev": "ts -node  ./src/app.ts",
+    "start:prod": "ts -node --transpile-only ./src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.19.2",
+    "mongodb": "^5.9.2",
+    "mysql2": "^3.9.7",
+    "nodemon": "^3.1.0",
+    "reflect-metadata": "^0.2.2",
+    "ts-node": "^10.9.2",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12"
+  }
+}
